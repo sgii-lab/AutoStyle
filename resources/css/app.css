@@ -1,0 +1,10 @@
+@import 'tailwindcss';
+
+@source '../views/**/*.blade.php';
+
+@theme {
+    --font-sans: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    --color-ink: #1c1f23;
+    --color-signal: #ff8a00;
+    --color-paper: #f7f5f0;
+}
